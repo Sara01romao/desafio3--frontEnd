@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+
+header{
+  
+  background: rgb(255, 255, 255);
+  padding: 5px;
+  margin-bottom: 10px;
+  
+}
+
+nav{
+  margin: 15px 60px;
+}
+
+nav ul{
+  float: right;
+  
+}
+
+nav ul li{
+  display: inline;
+  margin: 10px 30px;
+ 
+}
+nav ul li:hover{
+  border-bottom: 3px solid #6477B6;
+ 
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+
+main{
+  display: flex;
+  background:url("/img/banner3.jpeg") no-repeat;
+  margin: 0 auto;
+  max-width: 1366px;
+  height: 500px;
+  background-position-x: -375px ;
+  
+}
+
+main .texto{
+  margin: 50px 10px 10px 10px ;
+  padding: 20px 10px 0px 100px;
+  width: 150%;
+  border: 1px solid black;
+  height: 250px;
+  float: left;
+  
+}
+
+.texto h1{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  width: 500px;
+  margin-top: 50px;
+  
+ 
+}
+
+.texto p{
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px 50px 0px 0px;
+  
+}
+
+.container{
+  margin:450px 100px 20px 0px;
+  display: flex;
+  background: blue;
+  height: 200px;
+  
+ float: center;
+  border: 1px solid black;
+
+
+}
+
+.card{
+  width: 280px ;
+  margin: 20px;
+ 
+
+}
+
+h4{
+  color: white;
+  font-size: 18px;
+}
+
+aside{
+  float: left;
+}
+
+
+
+
+
