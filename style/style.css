@@ -60,7 +60,7 @@ main .texto{
   margin: 50px 10px 10px 10px ;
   padding: 0px 10px 0px 100px;
   
-  border: 1px solid black;
+
   height: 205px;
   float: left;
   
@@ -142,8 +142,81 @@ h4{
   background: rgba(0, 0, 255, 0);
   margin-left: 10px;
 }
+
+/*-----------------------------------------*/
+
+
+#promocoes{
+  margin: 10px 270px;
+  width: 650px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.promocao{
+  display: flex;
+  padding: 5px 15px;
+}
+
+.mapa img{
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.aviao, .info, .paradas{
+  
+  margin-left: 25px;
+}
+
+.aviao p{
+  width: 80px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+
+.info p{
+  padding-left: 0px;
+  font-weight: bold;
+  
+}
+
+.hora{
+  margin-top: 10px;
+}
+
+.data{
+  margin-top: 5px;
+  padding-top: 20px;
+  width: 80px;
+  font-size: 12px;
+  color: rgb(61, 61, 61);
+}
+
+.local{
+  margin-top: 20px;
+  font-size: 13.5px;
+  padding: 0px;
+}
+
+.paradas p{
+   margin-top: 10px;
+   font-weight: bold;
+   border-bottom: 2px solid black;
+}
+
+.paradas button{
+  margin-top: 25px;
+  background: #6477B6;
+  color: white;
+  border-radius: 5px;
+  width: 75px;
+  height: 25px;
+}
+
 aside{
-  float: left;
+  float: right;
+ 
 }
 
 
