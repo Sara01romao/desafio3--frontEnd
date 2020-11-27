@@ -149,13 +149,28 @@ h4{
 #promocoes{
   margin: 10px 270px;
   width: 650px;
-  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  
 }
 
+#promocoes h3{
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+hr{
+  margin-left: 4px;
+  width: 70px;
+  height: 2px;
+  background: rgb(51, 61, 153);
+}
 
 .promocao{
   display: flex;
   padding: 5px 15px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
 }
 
 .mapa img{
@@ -207,7 +222,7 @@ h4{
 
 .paradas button{
   margin-top: 25px;
-  background: #6477B6;
+  background: #5471cf;
   color: white;
   border-radius: 5px;
   width: 75px;
