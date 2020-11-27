@@ -142,13 +142,19 @@ h4{
   background: rgba(0, 0, 255, 0);
   margin-left: 10px;
 }
+.container button:hover{
+  border: 3px solid white;
+  font-weight: bold;
+
+}
 
 /*-----------------------------------------*/
 
 
 #promocoes{
-  margin: 10px 270px;
+  margin: 10px 230px;
   width: 650px;
+  display: flex;
   
 }
 
@@ -227,14 +233,83 @@ hr{
   border-radius: 5px;
   width: 75px;
   height: 25px;
+  cursor:pointer;
 }
 
+.paradas button:hover{
+  background: #6985e2;
+
+}
+
+
 aside{
-  float: right;
+  margin-left: 50px;
+  height: 350px;
+  
  
 }
 
+aside h3{
+width: 300px;
+margin-bottom: 3px;
 
+
+}
+
+aside hr{
+  margin-bottom: 15px;
+}
+form input{
+  width: 220px;
+  height: 45px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  border-color: rgba(82, 82, 82, 0.342);
+  
+}
+
+form button{
+  margin-top: 20px;
+  width: 245px;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  background-color: rgb(100, 168, 245);
+  font-weight: bold;
+  border: none;
+  cursor:pointer;
+}
+
+form button:hover{
+  background-color: rgb(57, 143, 241);
+
+}
+
+.iconC{
+  display: flex;
+  width: 240px;
+  height: 45px;
+  border: 2px solid rgba(82, 82, 82, 0.342);
+  
+
+  
+}
+
+.iconC input{
+  width: 150px;
+  height: 45px;
+  border: none;
+}
+
+
+form img{
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+  margin-right: 50px;
+  padding:10px 50px 10px 0px;
+}
 
 
 
