@@ -42,7 +42,8 @@ nav ul li:hover{
 a{
   text-decoration: none;
   color: black;
-  font-family: 'Roboto', sans-serif;
+  
+ 
   
 }
 
@@ -54,7 +55,7 @@ main{
   max-width: 1366px;
   height: 500px;
   background-position-x: -375px ;
-  background-position-y: -90px ;
+  background-position-y: -80px ;
   flex-wrap: wrap;
 
   border-bottom: 1px solid black;
@@ -63,7 +64,7 @@ main{
 
 main .texto{
   width: 500px;
-  margin: 50px 10px 10px 10px ;
+  margin: 40px 10px 10px 10px ;
   padding: 0px 10px 0px 100px;
   
 
@@ -78,6 +79,7 @@ main .texto{
   font-weight: bold;
   width: 500px;
   margin-top: 0px;
+  font-family: 'Roboto', sans-serif;
   
  
 }
@@ -87,6 +89,7 @@ main .texto{
   color: white;
   font-size: 20px;
   font-weight: bold;
+  width: 350px;
   padding: 0px 50px 0px 0px;
   
 }
@@ -225,6 +228,7 @@ hr{
   margin-top: 20px;
   font-size: 13.5px;
   padding: 0px;
+  
 }
 
 .paradas p{
@@ -337,7 +341,7 @@ form img{
 .vicon{
   width: 30px;
   height: 22px;
-  margin-left: 20px;
+  margin-left: 15px;
   margin-bottom: 10px;
 }
 
