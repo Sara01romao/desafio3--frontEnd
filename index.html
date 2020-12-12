@@ -183,17 +183,18 @@
           </div>
 
 
+
            <aside>
             <h3>Busque por sua viagem</h3>
             <hr>
             <form action="">
               <input type="text" placeholder="Origem"><br>
               <input type="text" placeholder="Destino"><br>
-              <div class="iconC">
-                <input type="text" placeholder="dd/mm/aaaa" >
-                <img src="img/iconCalender.svg" alt=""><br>
+             
+                <input type="text" id="data" placeholder="dd/mm/aaaa" data-mask="00/00/0000" maxlength="10" autocomplete="off" >
+                <img class="iconCal" src="img/iconCalender.svg" alt=""><br>
 
-              </div>
+              
     
               <button>Encontre seu Vôo</button>
     
@@ -212,6 +213,6 @@
       </section>
 
      
-
+<script src="js/script.js"></script>
 </body>
 </html>
