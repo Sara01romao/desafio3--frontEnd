@@ -298,21 +298,7 @@ form button:hover{
 
 }
 
-.iconC{
-  display: flex;
-  width: 240px;
-  height: 45px;
-  border: 2px solid rgba(82, 82, 82, 0.342);
-  
 
-  
-}
-
-.iconC input{
-  width: 150px;
-  height: 45px;
-  border: none;
-}
 
 
 form img{
@@ -321,6 +307,13 @@ form img{
   margin-top: 5px;
   margin-right: 50px;
   padding:10px 50px 10px 0px;
+}
+
+.iconCal{
+  position: relative;
+  right: 80px;
+  top:12px
+  
 }
 
 .gif {
